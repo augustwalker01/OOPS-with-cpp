@@ -12,6 +12,7 @@ class Rectangle
     if (l>0)
     {
         length=l;
+        
     }
     else
     cout<<"cant be negative";
