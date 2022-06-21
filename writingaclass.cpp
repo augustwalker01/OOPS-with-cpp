@@ -8,6 +8,8 @@ class Shape
     int breadth;
 };
 
+
+
 class Rectangle// if class is a car then objects are bmw , audi;
 {
     public:// this is necessary because the class is by default private and not public
