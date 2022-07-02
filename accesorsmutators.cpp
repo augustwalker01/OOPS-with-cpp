@@ -44,7 +44,6 @@ return length;
     }
 };
 int main()
-
 {
     Rectangle r;
     r.setLength(10);
