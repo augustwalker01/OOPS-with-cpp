@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-class D
+struct D
 {
-    public:
+  // no need tp mention public access specifier , because its a struct and thats what it has different thsn a class.
     int x,y;
     void display(){
         cout<<x<<" "<<y;
