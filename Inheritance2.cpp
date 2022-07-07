@@ -8,7 +8,7 @@ private:
 public:
  Rectangle();
  Rectangle(int l,int b);
- Rectangle(Rectangle &r);
+ //Rectangle(Rectangle &r);
  int getLength(){return length;}
  int getBreadth(){return breadth;}
  void setLength(int l);
@@ -28,7 +28,7 @@ public:
  height=h;
  }
  int getHeight(){return height;}
- void setHeight(int h){height=h;}
+ void setHeight(int h);//{height=h;}
  int volume(){return getLength()*getBreadth()*height;}
 };
 int main()
@@ -48,11 +48,11 @@ Rectangle::Rectangle(int l,int b)
  length=l;
  breadth=b;
 }
-Rectangle::Rectangle(Rectangle &r)
+/*Rectangle::Rectangle(Rectangle &r)
 {
  length=r.length;
  breadth=r.breadth;
-}
+}*/
 void Rectangle::setLength(int l)
 {
  length=l;
